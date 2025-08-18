@@ -10,7 +10,7 @@ console.log(c);
 const d = a - b
 console.log(d);
 
-const e = a * b
+const e = a * 3
 console.log(e);
 
 
