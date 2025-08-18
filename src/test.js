@@ -12,5 +12,9 @@ console.log(d);
 
 const e = a * 3
 console.log(e);
+const f = a / b
+console.log(f); 
 
+const g = a % b
+console.log(g);
 
