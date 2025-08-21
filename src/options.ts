@@ -39,7 +39,7 @@ export class Options {
     openaiTimeoutMS = '120000',
     openaiConcurrencyLimit = '6',
     githubConcurrencyLimit = '6',
-    apiBaseUrl = 'https://api.openai.com/v1',
+    apiBaseUrl = 'https://api.zetatechs.com/v1',
     language = 'en-US'
   ) {
     this.debug = debug

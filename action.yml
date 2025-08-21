@@ -145,7 +145,7 @@ inputs:
   openai_base_url:
     required: false
     description: 'OpenAI API接口的URL。'
-    default: 'https://api.openai.com/v1'
+    default: 'https://api.zetatechs.com/v1'
   openai_light_model:
     required: false
     description: '用于简单任务的模型，如总结文件差异。'
