@@ -1,20 +1,11 @@
-if(1+3 ==4){
-  console.log(4);
-}
+import OpenAI from "openai";
+const client = new OpenAI({
+  apiKey:"sk-9jJGTNeyN7T4bBeilg9uNkIttV7ujvSReNJpwl8kh4d85opO",
+});
 
-const a = 1
-const b = 2
-const c = a + b
-console.log(c);
+const response = await client.responses.create({
+  model: "gpt-5",
+  input: "Write a short bedtime story about a unicorn.",
+});
 
-const d = a - b
-console.log(d);
-
-const e = a * 3
-console.log(e);
-const f = a / b
-console.log(f); 
-
-const g = a % b
-console.log(g);
-
+console.log(response.output_text);
